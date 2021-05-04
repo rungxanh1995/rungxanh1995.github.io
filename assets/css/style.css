@@ -177,6 +177,13 @@ img.img-screenshot {
 		color: #fff;
 	}
 
+	p {
+		width: 80%;
+		margin: auto; /* align center of screen */
+		padding: 1em 0;
+		min-width: 300px;
+	}
+
 	img#hero-image {
 		width: 200px;
 		height: auto;
