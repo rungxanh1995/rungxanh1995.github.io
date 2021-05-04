@@ -58,9 +58,10 @@ hr {
 }
 
 p {
+	font-size: 1.1em;
 	text-align: left;
 	margin: auto; /* align center of screen */
-	padding: 1em 0;
+	padding: 1em 1em;
 	max-width: 800px;
 }
 
@@ -128,7 +129,7 @@ img.img-screenshot {
 	}
 
 	img#hero-image {
-		width: 15%;
+		width: 20%;
 		height: auto;
 		margin-top: 100px;
 		box-shadow: -10px -10px 20px #454545, 10px 10px 20px #111111;
@@ -178,10 +179,11 @@ img.img-screenshot {
 	}
 
 	p {
-		width: 85%;
+		width: 90%;
 		margin: auto; /* align center of screen */
 		padding: 1em 0;
 		min-width: 300px;
+		font-size: 1em;
 	}
 
 	img#hero-image {
