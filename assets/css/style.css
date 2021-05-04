@@ -21,6 +21,10 @@ body {
 	padding: 0;
 }
 
+section {
+	padding-bottom: 60px;
+}
+
 h1,
 h2,
 h3 {
@@ -39,7 +43,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 2.5em;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	line-height: 1.5;
@@ -48,7 +52,10 @@ h2 {
 }
 
 h3 {
-	font-size: 1.55em;
+	font-size: 1.75em;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	line-height: 1.5;
 }
 
 hr {
@@ -90,12 +97,27 @@ a {
 }
 
 img.img-screenshot {
-	box-shadow: 0 0 20px rgba(51, 51, 51, 0.815);
-	border-radius: 8px;
+	border-radius: 14px;
 	opacity: 1;
 }
 
-/* Responsive design nav menu */
+img.screenshot-white-background {
+	box-shadow: 10px 10px 20px #b8b8b8, -10px -10px 20px #fafafa;
+	border-radius: 14px;
+}
+
+img.screenshot-dark-background {
+	box-shadow: -10px -10px 20px #454545, 10px 10px 20px #111111;
+	border-radius: 14px;
+}
+
+img.app-store-badge {
+	min-height: 40px;
+	max-height: 25%;
+	width: auto;
+}
+
+/* Big screen responsive design*/
 @media screen and (min-width: 550px) {
 	.nav_menu {
 		position: fixed;
@@ -164,8 +186,8 @@ img.img-screenshot {
 	}
 }
 
+/* Small screen responsive design */
 @media (max-width: 549px) {
-	/* Small screen for nav menu */
 	.nav_menu {
 		font-size: 90%;
 		font-family: "Mulish";
@@ -189,6 +211,18 @@ img.img-screenshot {
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
 		color: #db9027;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.25em;
 	}
 
 	p {
@@ -242,7 +276,7 @@ img.img-screenshot {
 
 /* Skills section */
 #skills {
-	background: rgba(255, 255, 255, 0.815);
+	background: rgb(217, 217, 217);
 	color: #333;
 }
 
@@ -258,6 +292,28 @@ img.img-screenshot {
 }
 
 #contributions {
-	background: rgba(255, 255, 255, 0.815);
+	background: rgb(217, 217, 217);
 	color: #333;
+}
+
+footer {
+	margin-bottom: 60px;
+}
+
+footer h4 {
+	margin: 2em auto;
+	font-family: "Source Serif Pro", Times, serif;
+	font-size: 95%;
+	text-transform: uppercase;
+	text-align: center;
+}
+footer p,
+footer ul li {
+	text-align: center;
+	font-size: 85%;
+}
+
+footer p a,
+footer ul li a {
+	text-decoration: underline;
 }
