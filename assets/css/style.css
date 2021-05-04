@@ -31,8 +31,10 @@ h3 {
 }
 
 h1 {
-	font-size: 2.75em;
-	padding: 40px 0 0 0;
+	font-size: 4em;
+	font-family: "Mulish", sans-serif;
+	font-weight: 700;
+	color: #db9027;
 	line-height: 1.5;
 }
 
@@ -132,7 +134,7 @@ img.img-screenshot {
 
 	.nav_menu ul li a#joe {
 		color: #fff;
-		text-shadow: 0 0 15px aqua;
+		text-shadow: 0 0 15px #db9027;
 		font-weight: 700;
 	}
 
