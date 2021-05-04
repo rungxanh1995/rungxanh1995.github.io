@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Serif+Pro:wght@600&display=swap");
 
-/* remember to inject dark mode code */
-
 html {
 	font-family: "Inter", Arial, Helvetica, sans-serif;
 	scroll-behavior: smooth;
@@ -60,9 +58,9 @@ hr {
 }
 
 p {
-	text-align: justify;
+	text-align: left;
 	margin: auto; /* align center of screen */
-	padding: 2em 0;
+	padding: 1em 0;
 	max-width: 800px;
 }
 
