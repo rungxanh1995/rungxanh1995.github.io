@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Serif+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;600;700&display=swap");
 
 html {
-	font-family: "Inter", Arial, Helvetica, sans-serif;
+	font-family: "Mulish", Arial, Helvetica, sans-serif;
 	scroll-behavior: smooth;
 }
 
@@ -30,7 +31,6 @@ h3 {
 }
 
 h1 {
-	text-transform: uppercase;
 	font-size: 2.75em;
 	padding: 40px 0 0 0;
 	line-height: 1.5;
@@ -55,6 +55,7 @@ hr {
 	height: 1px;
 	background: rgba(255, 255, 255, 0.815);
 	border: none;
+	box-shadow: 0 1px 8px #333;
 }
 
 p {
@@ -122,15 +123,22 @@ img.img-screenshot {
 	}
 	.nav_menu ul li a {
 		text-decoration: none;
-		color: #db9027;
+		color: rgba(255, 255, 255, 0.75);
 		text-shadow: 0 0 15px black;
-		font-weight: 700;
+		font-weight: 600;
 		margin: 0.5em 0.25em;
 		text-align: center;
 	}
+
+	.nav_menu ul li a#joe {
+		color: #fff;
+		text-shadow: 0 0 15px aqua;
+		font-weight: 700;
+	}
+
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
-		color: #fff;
+		color: #db9027;
 	}
 
 	img#hero-image {
@@ -164,7 +172,7 @@ img.img-screenshot {
 
 		display: grid; /* css grid for small screen nav menu */
 		grid-template-columns: 1fr 1fr 1fr;
-		outline: 1px solid #db9027;
+		outline: 1px solid rgba(255, 255, 255, 0.815);
 		box-shadow: 0 10px 10px #333;
 	}
 	.nav_menu ul li {
@@ -175,12 +183,12 @@ img.img-screenshot {
 	}
 	.nav_menu ul li a {
 		text-decoration: none;
-		color: #db9027;
-		font-weight: 700;
+		color: rgba(255, 255, 255, 0.815);
+		font-weight: 600;
 	}
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
-		color: #fff;
+		color: #db9027;
 	}
 
 	p {
@@ -234,8 +242,8 @@ img.img-screenshot {
 
 /* Skills section */
 #skills {
-	background: #db9027;
-	color: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.815);
+	color: #333;
 }
 
 #skills p a {
@@ -250,6 +258,6 @@ img.img-screenshot {
 }
 
 #contributions {
-	background: #db9027;
-	color: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.815);
+	color: #333;
 }
