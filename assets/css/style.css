@@ -97,18 +97,20 @@ a {
 }
 
 img.img-screenshot {
-	border-radius: 14px;
+	border-radius: 12px;
 	opacity: 1;
 }
 
 img.screenshot-white-background {
 	box-shadow: 10px 10px 20px #8b8b8b, -10px -10px 20px #e0e0e0;
-	border-radius: 14px;
 }
 
 img.screenshot-dark-background {
 	box-shadow: -10px -10px 20px #454545, 10px 10px 20px #111111;
-	border-radius: 14px;
+}
+
+img.icon {
+	border-radius: 27.5%;
 }
 
 img.app-store-badge {
@@ -180,8 +182,8 @@ img.app-store-badge {
 		height: auto;
 	}
 
-	img.contact-icon {
-		width: 60px;
+	img.icon {
+		width: 50px;
 		height: auto;
 	}
 }
@@ -252,7 +254,7 @@ img.app-store-badge {
 		height: auto;
 	}
 
-	img.contact-icon {
+	img.icon {
 		width: 15%;
 		height: auto;
 	}
