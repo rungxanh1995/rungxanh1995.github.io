@@ -131,7 +131,7 @@ img.img-screenshot {
 		width: 15%;
 		height: auto;
 		margin-top: 100px;
-		box-shadow: 0 0 16px #db9027;
+		box-shadow: -10px -10px 20px #454545, 10px 10px 20px #111111;
 		border-radius: 50%;
 		border-collapse: separate;
 	}
@@ -178,7 +178,7 @@ img.img-screenshot {
 	}
 
 	p {
-		width: 80%;
+		width: 85%;
 		margin: auto; /* align center of screen */
 		padding: 1em 0;
 		min-width: 300px;
@@ -187,10 +187,9 @@ img.img-screenshot {
 	img#hero-image {
 		width: 200px;
 		height: auto;
-		margin-top: 100px;
-		box-shadow: 0 0 16px #db9027;
+		margin-top: 60px;
+		box-shadow: -10px -10px 20px #454545, 10px 10px 20px #111111;
 		border-radius: 50%;
-		border-collapse: separate;
 	}
 
 	img.img-screenshot {
