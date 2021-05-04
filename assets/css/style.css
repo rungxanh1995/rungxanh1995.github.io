@@ -102,7 +102,7 @@ img.img-screenshot {
 }
 
 img.screenshot-white-background {
-	box-shadow: 10px 10px 20px #b8b8b8, -10px -10px 20px #fafafa;
+	box-shadow: 10px 10px 20px #8b8b8b, -10px -10px 20px #e0e0e0;
 	border-radius: 14px;
 }
 
@@ -275,7 +275,7 @@ img.app-store-badge {
 }
 
 #projects {
-	background: rgb(217, 217, 217);
+	background: rgb(175, 175, 175);
 	color: #333;
 }
 
@@ -291,7 +291,7 @@ img.app-store-badge {
 }
 
 #contributions {
-	background: rgb(217, 217, 217);
+	background: rgb(175, 175, 175);
 	color: #333;
 }
 
