@@ -165,26 +165,24 @@ img.img-screenshot {
 @media (max-width: 549px) {
 	/* Small screen for nav menu */
 	.nav_menu {
-		font-size: 80%;
+		font-size: 90%;
+		font-family: "Mulish";
+		font-weight: 600;
 	}
 	.nav_menu ul {
 		position: relative; /* no floating nav menu w/ smaller screens */
-
 		display: grid; /* css grid for small screen nav menu */
 		grid-template-columns: 1fr 1fr 1fr;
-		outline: 1px solid rgba(255, 255, 255, 0.815);
-		box-shadow: 0 10px 10px #333;
+		box-shadow: 0 0 20px rgba(3, 3, 3, 0.815);
 	}
 	.nav_menu ul li {
 		list-style: none;
 		text-align: center;
 		margin: 0.5em 0.25em 0.5em 0.25em;
-		/* border: 1px solid #fff; */
 	}
 	.nav_menu ul li a {
 		text-decoration: none;
 		color: rgba(255, 255, 255, 0.815);
-		font-weight: 600;
 	}
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
