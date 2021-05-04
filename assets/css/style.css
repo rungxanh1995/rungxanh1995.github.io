@@ -274,21 +274,20 @@ img.app-store-badge {
 	margin-right: 12px;
 }
 
-/* Skills section */
-#skills {
+#projects {
 	background: rgb(217, 217, 217);
 	color: #333;
+}
+
+#skills {
+	background: #333;
+	color: rgba(255, 255, 255, 0.815);
 }
 
 #skills p a {
 	text-decoration: none;
 	margin-left: 12px;
 	margin-right: 12px;
-}
-
-#projects {
-	background: #333;
-	color: rgba(255, 255, 255, 0.815);
 }
 
 #contributions {
