@@ -191,6 +191,11 @@ img.img-screenshot {
 		font-size: 1em;
 	}
 
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
 	img#hero-image {
 		width: 200px;
 		height: auto;
