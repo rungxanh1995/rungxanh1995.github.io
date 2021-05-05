@@ -62,7 +62,7 @@ hr {
 	margin: 3em auto 3em auto;
 	width: 100px;
 	height: 1px;
-	background: rgba(255, 255, 255, 0.815);
+	background: rgb(222, 222, 222);
 	border: none;
 	box-shadow: 0 1px 8px #333;
 }
@@ -97,16 +97,16 @@ a {
 }
 
 img.img-screenshot {
-	border-radius: 12px;
+	border-radius: 30px;
 	opacity: 1;
 }
 
 img.screenshot-white-background {
-	box-shadow: 10px 10px 20px #8b8b8b, -10px -10px 20px #e0e0e0;
+	box-shadow: 10px 10px 20px #bdbdbd, -10px -10px 20px #ffffff;
 }
 
 img.screenshot-dark-background {
-	box-shadow: -10px -10px 20px #454545, 10px 10px 20px #111111;
+	box-shadow: 10px 10px 20px #2b2b2b, -10px -10px 20px #3b3b3b;
 }
 
 img.icon {
@@ -171,7 +171,7 @@ img.app-store-badge {
 		width: 20%;
 		height: auto;
 		margin-top: 100px;
-		box-shadow: -10px -10px 20px #454545, 10px 10px 20px #111111;
+		box-shadow: 16px 16px 32px #1f1f1f, -16px -16px 32px #474747;
 		border-radius: 50%;
 		border-collapse: separate;
 	}
@@ -244,7 +244,7 @@ img.app-store-badge {
 		width: 200px;
 		height: auto;
 		margin-top: 60px;
-		box-shadow: -10px -10px 20px #454545, 10px 10px 20px #111111;
+		box-shadow: 16px 16px 32px #1f1f1f, -16px -16px 32px #474747;
 		border-radius: 50%;
 	}
 
@@ -252,6 +252,7 @@ img.app-store-badge {
 		/* expand screenshot size on small screens */
 		width: 90%;
 		height: auto;
+		border-radius: 20px;
 	}
 
 	img.icon {
@@ -263,7 +264,7 @@ img.app-store-badge {
 /* Each section styling */
 #about {
 	background: #333;
-	color: rgba(255, 255, 255, 0.815);
+	color: rgb(222, 222, 222);
 }
 
 #about h2 {
@@ -277,13 +278,13 @@ img.app-store-badge {
 }
 
 #projects {
-	background: rgb(175, 175, 175);
+	background: rgb(222, 222, 222);
 	color: #333;
 }
 
 #skills {
 	background: #333;
-	color: rgba(255, 255, 255, 0.815);
+	color: rgb(222, 222, 222);
 }
 
 #skills p a {
@@ -293,7 +294,7 @@ img.app-store-badge {
 }
 
 #contributions {
-	background: rgb(175, 175, 175);
+	background: rgb(222, 222, 222);
 	color: #333;
 }
 
