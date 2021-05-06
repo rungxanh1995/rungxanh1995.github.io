@@ -14,9 +14,9 @@ html {
 
 body {
 	margin: 0;
-	background: #333;
-	color: #fff;
-	font-weight: 400;
+	background: #111;
+	color: #ccc;
+	font-weight: 300;
 	line-height: 1.5;
 	padding: 0;
 }
@@ -27,11 +27,13 @@ section {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
 	font-family: "Source Serif Pro", Times, serif;
 	margin-left: auto; /* align center of screen */
 	margin-right: auto; /* align center of screen */
 	padding: 0.5em 0;
+	text-align: center;
 }
 
 h1 {
@@ -59,12 +61,13 @@ h3 {
 }
 
 hr {
+	/* invisible */
 	margin: 3em auto 3em auto;
-	width: 100px;
-	height: 1px;
-	background: rgb(222, 222, 222);
+	width: 0;
+	height: 0;
+	background: none;
 	border: none;
-	box-shadow: 0 1px 8px #333;
+	box-shadow: none;
 }
 
 p {
@@ -93,32 +96,37 @@ a {
 }
 
 .reduce-bottom {
-	margin-bottom: -0.75em;
+	margin-bottom: -0.5em;
 }
 
 img.img-screenshot {
-	border-radius: 30px;
-	opacity: 1;
+	border-radius: 16px;
+	margin-top: 3em;
+	margin-bottom: 1.5em;
 }
 
 img.screenshot-white-background {
-	box-shadow: 10px 10px 20px #bdbdbd, -10px -10px 20px #ffffff;
+	/* box-shadow: 10px 10px 20px #bdbdbd, -10px -10px 20px #ffffff; */
+	box-shadow: 0 0 20px #aaaaaa;
 }
 
 img.screenshot-dark-background {
-	box-shadow: 10px 10px 20px #181818, -10px -10px 20px #525252;
-	background-color: rgb(254, 254, 254); /* white background for icons */
+	/* box-shadow: 10px 10px 20px #181818, -10px -10px 20px #525252; */
+	/* background-color: rgb(254, 254, 254); white background for icons */
 }
 
 img.icon {
 	border-radius: 25%;
 	margin-top: 1em;
+	display: inline-block;
+	background-color: #fff;
 }
 
 img.app-store-badge {
 	min-height: 40px;
 	max-height: 25%;
 	width: auto;
+	padding: 1em;
 }
 
 /* Big screen responsive design*/
@@ -144,6 +152,7 @@ img.app-store-badge {
 		align-items: center;
 		box-shadow: 0 0 20px rgba(3, 3, 3, 0.815);
 	}
+
 	.nav_menu ul li {
 		list-style: none;
 		justify-content: center;
@@ -173,7 +182,7 @@ img.app-store-badge {
 		width: 20%;
 		height: auto;
 		margin-top: 100px;
-		box-shadow: 16px 16px 32px #1f1f1f, -16px -16px 32px #474747;
+		/* box-shadow: 16px 16px 32px #1f1f1f, -16px -16px 32px #474747; */
 		border-radius: 50%;
 		border-collapse: separate;
 	}
@@ -254,7 +263,7 @@ img.app-store-badge {
 		width: 200px;
 		height: auto;
 		margin-top: 125px;
-		box-shadow: 16px 16px 32px #1f1f1f, -16px -16px 32px #474747;
+		/* box-shadow: 16px 16px 32px #1f1f1f, -16px -16px 32px #474747; */
 		border-radius: 50%;
 	}
 
@@ -262,7 +271,7 @@ img.app-store-badge {
 		/* expand screenshot size on small screens */
 		width: 90%;
 		height: auto;
-		border-radius: 20px;
+		/* border-radius: 20px; */
 	}
 
 	img.icon {
@@ -273,8 +282,8 @@ img.app-store-badge {
 
 /* Each section styling */
 #about {
-	background: #333;
-	color: rgb(222, 222, 222);
+	background: #111;
+	color: #ccc;
 }
 
 #about h2 {
@@ -288,13 +297,13 @@ img.app-store-badge {
 }
 
 #projects {
-	background: rgb(222, 222, 222);
-	color: #333;
+	background: #fff;
+	color: #101010;
 }
 
 #skills {
-	background: #333;
-	color: rgb(222, 222, 222);
+	background: #111;
+	color: #ccc;
 }
 
 #skills p a {
@@ -304,8 +313,8 @@ img.app-store-badge {
 }
 
 #contributions {
-	background: rgb(222, 222, 222);
-	color: #333;
+	background: #fff;
+	color: #101010;
 }
 
 footer {
@@ -314,15 +323,15 @@ footer {
 
 footer h4 {
 	margin: 2em auto;
-	font-family: "Source Serif Pro", Times, serif;
-	font-size: 95%;
+	font-size: 1em;
 	text-transform: uppercase;
-	text-align: center;
 }
+
 footer p,
 footer ul li {
 	text-align: center;
-	font-size: 85%;
+	font-size: 90%;
+	line-height: 1.75;
 }
 
 footer p a,
