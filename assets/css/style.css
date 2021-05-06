@@ -3,7 +3,8 @@
 
 html {
 	font-family: "Mulish", Arial, Helvetica, sans-serif;
-	scroll-behavior: smooth;
+	/* scroll-behavior: smooth; */
+	/* ^ don't uncomment this as it bugs on Chrome */
 }
 
 * {
