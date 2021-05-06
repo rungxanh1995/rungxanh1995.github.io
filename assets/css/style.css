@@ -292,7 +292,7 @@ img.app-store-badge {
 	}
 
 	img.icon {
-		width: 55px;
+		width: 60px; /* tad bigger on small screens */
 		height: auto;
 	}
 }
