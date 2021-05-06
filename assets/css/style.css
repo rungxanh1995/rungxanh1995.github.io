@@ -106,11 +106,13 @@ img.screenshot-white-background {
 }
 
 img.screenshot-dark-background {
-	box-shadow: 10px 10px 20px #2b2b2b, -10px -10px 20px #3b3b3b;
+	box-shadow: 10px 10px 20px #181818, -10px -10px 20px #525252;
+	background-color: rgb(254, 254, 254); /* white background for icons */
 }
 
 img.icon {
-	border-radius: 27.5%;
+	border-radius: 25%;
+	margin-top: 1em;
 }
 
 img.app-store-badge {
@@ -191,12 +193,20 @@ img.app-store-badge {
 /* Small screen responsive design */
 @media (max-width: 549px) {
 	.nav_menu {
-		font-size: 90%;
 		font-family: "Mulish";
 		font-weight: 600;
 	}
+
+	.nav_menu #joe {
+		color: #db9027;
+		text-shadow: 0 0 25px #db9027;
+	}
 	.nav_menu ul {
-		position: relative; /* no floating nav menu w/ smaller screens */
+		width: 100%;
+		background: rgba(3, 3, 3, 0.7);
+		-webkit-backdrop-filter: blur(12px);
+		backdrop-filter: blur(12px);
+		position: fixed; /* no floating nav menu w/ smaller screens */
 		display: grid; /* css grid for small screen nav menu */
 		grid-template-columns: 1fr 1fr 1fr;
 		box-shadow: 0 0 20px rgba(3, 3, 3, 0.815);
@@ -208,7 +218,7 @@ img.app-store-badge {
 	}
 	.nav_menu ul li a {
 		text-decoration: none;
-		color: rgba(255, 255, 255, 0.815);
+		color: rgba(255, 255, 255, 0.75);
 	}
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
@@ -243,7 +253,7 @@ img.app-store-badge {
 	img#hero-image {
 		width: 200px;
 		height: auto;
-		margin-top: 60px;
+		margin-top: 125px;
 		box-shadow: 16px 16px 32px #1f1f1f, -16px -16px 32px #474747;
 		border-radius: 50%;
 	}
