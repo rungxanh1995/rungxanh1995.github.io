@@ -203,7 +203,7 @@ img.app-store-badge {
 	}
 	.nav_menu ul {
 		width: 100%;
-		background: rgba(3, 3, 3, 0.7);
+		background: rgba(53, 53, 53, 0.7);
 		-webkit-backdrop-filter: blur(12px);
 		backdrop-filter: blur(12px);
 		position: fixed; /* no floating nav menu w/ smaller screens */
