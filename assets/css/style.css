@@ -143,12 +143,8 @@ img.app-store-badge {
 		position: fixed;
 		width: 100%;
 		z-index: 1; /* z-index to float on top of all other page elements */
-		background-color: rgba(
-			51,
-			51,
-			51,
-			0.75
-		); /* glass blur transparent nav menu */
+		background-color: rgba(247, 247, 247, 0.75);
+		/* glass blur transparent nav menu */
 		-webkit-backdrop-filter: blur(25px);
 		backdrop-filter: blur(25px);
 	}
@@ -158,7 +154,7 @@ img.app-store-badge {
 		justify-content: space-evenly;
 		min-height: 40px;
 		align-items: center;
-		box-shadow: 0 0 20px rgba(3, 3, 3, 0.815);
+		box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.13);
 	}
 
 	.nav_menu ul li {
@@ -168,15 +164,15 @@ img.app-store-badge {
 	}
 	.nav_menu ul li a {
 		text-decoration: none;
-		color: rgb(255, 255, 255);
+		color: rgb(0, 0, 0);
 		font-weight: 600;
 		margin: 0.5em 0.25em;
 		text-align: center;
 	}
 
 	.nav_menu ul li a#joe {
-		color: #fff;
-		text-shadow: 0 0 15px #db9027;
+		color: rgb(0, 0, 0);
+		text-shadow: 0 2px 8px #db9027;
 		font-weight: 700;
 	}
 
@@ -236,18 +232,19 @@ img.app-store-badge {
 	}
 
 	.nav_menu #joe {
-		color: #db9027;
-		text-shadow: 0 0 25px #db9027;
+		color: #000000;
+		text-shadow: 0 2px 8px #db9027;
+		font-weight: 700;
 	}
 	.nav_menu ul {
 		width: 100%;
-		background: rgba(51, 51, 51, 0.75);
+		background-color: rgba(247, 247, 247, 0.75);
 		-webkit-backdrop-filter: blur(25px);
 		backdrop-filter: blur(25px);
 		position: fixed; /* no floating nav menu w/ smaller screens */
 		display: grid; /* css grid for small screen nav menu */
 		grid-template-columns: 1fr 1fr 1fr;
-		box-shadow: 0 0 20px rgba(3, 3, 3, 0.815);
+		box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.13);
 	}
 	.nav_menu ul li {
 		list-style: none;
@@ -256,7 +253,7 @@ img.app-store-badge {
 	}
 	.nav_menu ul li a {
 		text-decoration: none;
-		color: rgba(255, 255, 255, 0.75);
+		color: rgb(0, 0, 0);
 	}
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
