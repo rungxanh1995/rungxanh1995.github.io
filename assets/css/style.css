@@ -211,8 +211,6 @@ img.app-store-badge {
 	}
 
 	img.img-screenshot:hover {
-		width: 60.5%;
-		height: auto;
 		box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px,
 			rgba(0, 0, 0, 0.23) 0 10px 15px;
 		transition: all 0.7s ease;
