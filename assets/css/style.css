@@ -137,8 +137,8 @@ img.app-store-badge {
 	padding: 1em;
 }
 
-/* Big screen responsive design*/
-@media screen and (min-width: 550px) {
+/* BIG SCREEN IN LIGHT MODE */
+@media screen and (min-width: 550px) and (prefers-color-scheme: light) {
 	.nav_menu {
 		position: fixed;
 		width: 100%;
@@ -199,7 +199,6 @@ img.app-store-badge {
 		width: 20%;
 		height: auto;
 		margin-top: 100px;
-		/* box-shadow: 16px 16px 32px #1f1f1f, -16px -16px 32px #474747; */
 		border-radius: 50%;
 		border-collapse: separate;
 	}
@@ -222,8 +221,96 @@ img.app-store-badge {
 	}
 }
 
-/* Small screen responsive design */
-@media (max-width: 549px) {
+/* BIG SCREEN IN DARK MODE */
+@media screen and (min-width: 550px) and (prefers-color-scheme: dark) {
+	.nav_menu {
+		position: fixed;
+		width: 100%;
+		z-index: 1; /* z-index to float on top of all other page elements */
+		background-color: rgba(
+			51,
+			51,
+			51,
+			0.75
+		); /* glass blur transparent nav menu */
+		-webkit-backdrop-filter: blur(25px);
+		backdrop-filter: blur(25px);
+	}
+	.nav_menu ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		min-height: 40px;
+		align-items: center;
+		box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
+	}
+
+	.nav_menu ul li {
+		list-style: none;
+		justify-content: center;
+		align-items: center;
+	}
+	.nav_menu ul li a {
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		font-weight: 600;
+		margin: 0.5em 0.25em;
+		text-align: center;
+	}
+
+	.nav_menu ul li a#joe {
+		color: #fff;
+		text-shadow: 0 0 15px #db9027;
+		font-weight: 700;
+	}
+
+	.nav_menu ul li a:hover,
+	.nav_menu ul li a:focus {
+		color: #db9027;
+	}
+
+	#skills .skill-stack {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	#skills .skill-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 10px;
+		box-sizing: border-box;
+	}
+
+	img#hero-image {
+		width: 20%;
+		height: auto;
+		margin-top: 100px;
+		border-radius: 50%;
+		border-collapse: separate;
+	}
+
+	img.img-screenshot {
+		/* reduce screenshot size on big screens */
+		width: 60%;
+		height: auto;
+	}
+
+	img.img-screenshot:hover {
+		box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px,
+			rgba(0, 0, 0, 0.23) 0 10px 15px;
+		transition: all 0.7s ease;
+	}
+
+	img.icon {
+		width: 55px;
+		height: auto;
+	}
+}
+
+/* SMALL SCREEN IN LIGHT MODE */
+@media screen and (max-width: 549px) and (prefers-color-scheme: light) {
 	.nav_menu {
 		font-family: "Mulish";
 		font-weight: 600;
@@ -304,7 +391,6 @@ img.app-store-badge {
 		width: 200px;
 		height: auto;
 		margin-top: 125px;
-		/* box-shadow: 16px 16px 32px #1f1f1f, -16px -16px 32px #474747; */
 		border-radius: 50%;
 	}
 
@@ -312,7 +398,102 @@ img.app-store-badge {
 		/* expand screenshot size on small screens */
 		width: 90%;
 		height: auto;
-		/* border-radius: 20px; */
+	}
+
+	img.icon {
+		width: 60px; /* tad bigger on small screens */
+		height: auto;
+	}
+}
+
+/* SMALL SCREEN IN DARK MODE */
+@media screen and (max-width: 549px) and (prefers-color-scheme: dark) {
+	.nav_menu {
+		font-family: "Mulish";
+		font-weight: 600;
+	}
+
+	.nav_menu #joe {
+		color: #db9027;
+		text-shadow: 0 0 25px #db9027;
+	}
+	.nav_menu ul {
+		width: 100%;
+		background: rgba(51, 51, 51, 0.75);
+		-webkit-backdrop-filter: blur(25px);
+		backdrop-filter: blur(25px);
+		position: fixed; /* no floating nav menu w/ smaller screens */
+		display: grid; /* css grid for small screen nav menu */
+		grid-template-columns: 1fr 1fr 1fr;
+		box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	}
+	.nav_menu ul li {
+		list-style: none;
+		text-align: center;
+		margin: 0.5em 0.25em 0.5em 0.25em;
+	}
+	.nav_menu ul li a {
+		text-decoration: none;
+		color: rgba(255, 255, 255, 0.75);
+	}
+	.nav_menu ul li a:hover,
+	.nav_menu ul li a:focus {
+		color: #db9027;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.25em;
+	}
+
+	p {
+		width: 90%;
+		margin: auto; /* align center of screen */
+		padding: 1em 0;
+		font-size: 1em;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	#skills .skill-stack {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		text-align: center;
+	}
+
+	#skills .icon {
+		margin-bottom: 0;
+	}
+
+	#skills .skill-label {
+		margin-bottom: 1em;
+	}
+
+	.button {
+		max-width: 160px;
+	}
+
+	img#hero-image {
+		width: 200px;
+		height: auto;
+		margin-top: 125px;
+		border-radius: 50%;
+	}
+
+	img.img-screenshot {
+		/* expand screenshot size on small screens */
+		width: 90%;
+		height: auto;
 	}
 
 	img.icon {
@@ -350,20 +531,6 @@ img.app-store-badge {
 	background: #111;
 	color: #ccc;
 }
-
-/* #skills .skill-stack {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-} */
-
-/* #skills .skill-item {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 10px;
-	box-sizing: border-box;
-} */
 
 #skills .skill-label {
 	text-align: center;
