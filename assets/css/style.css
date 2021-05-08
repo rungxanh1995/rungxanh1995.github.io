@@ -145,7 +145,7 @@ img.app-store-badge {
 	min-height: 40px;
 	max-height: 25%;
 	width: auto;
-	padding: 1em;
+	margin: 1em;
 }
 
 /* BIG SCREEN IN LIGHT MODE */
