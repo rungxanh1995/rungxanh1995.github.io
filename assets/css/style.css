@@ -9,8 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap");
 
 html {
-	font-family: -apple-system, "Mulish", "Helvetica Neue", Helvetica,
-		sans-serif;
+	font-family: "Mulish", "Helvetica Neue", Helvetica, sans-serif;
 	/* scroll-behavior: smooth; */
 	/* ^ don't uncomment this as it bugs on Chrome */
 }
@@ -48,7 +47,7 @@ h4 {
 
 h1 {
 	font-size: 4em;
-	font-family: -apple-system, "Mulish", sans-serif;
+	font-family: "Mulish", sans-serif;
 	font-weight: 700;
 	color: #db9027;
 	line-height: 1.5;
@@ -296,7 +295,7 @@ img.app-store-badge {
 		-webkit-box-align: center;
 		-ms-flex-align: center;
 		align-items: center;
-		font-family: -apple-system, "Mulish", sans-serif;
+		font-family: "Mulish", sans-serif;
 	}
 	.nav_menu ul li a {
 		text-decoration: none;
@@ -367,7 +366,7 @@ img.app-store-badge {
 /* SMALL SCREEN IN LIGHT MODE */
 @media screen and (max-width: 549px) and (prefers-color-scheme: light) {
 	.nav_menu {
-		font-family: -apple-system, "Mulish";
+		font-family: "Mulish";
 		font-weight: 500;
 		font-size: 90%;
 	}
@@ -478,7 +477,7 @@ img.app-store-badge {
 /* SMALL SCREEN IN DARK MODE */
 @media screen and (max-width: 549px) and (prefers-color-scheme: dark) {
 	.nav_menu {
-		font-family: -apple-system, "Mulish";
+		font-family: "Mulish";
 		font-weight: 500;
 		font-size: 90%;
 	}
