@@ -196,9 +196,13 @@ img.app-store-badge {
 	}
 
 	.nav_menu ul li a#joe {
-		color: rgb(0, 0, 0);
-		text-shadow: 0 2px 8px #db9027;
+		color: white;
 		font-weight: 700;
+		border-radius: 8px;
+		background-color: #000;
+		display: inline-block;
+		padding: 0.25em;
+		min-width: 80px;
 	}
 
 	.nav_menu ul li a:hover,
@@ -306,9 +310,13 @@ img.app-store-badge {
 	}
 
 	.nav_menu ul li a#joe {
-		color: #fff;
-		text-shadow: 0 0 15px #db9027;
+		color: black;
 		font-weight: 700;
+		border-radius: 8px;
+		background-color: #fff;
+		display: inline-block;
+		padding: 0.25em;
+		min-width: 80px;
 	}
 
 	.nav_menu ul li a:hover,
@@ -372,9 +380,13 @@ img.app-store-badge {
 	}
 
 	.nav_menu #joe {
-		color: #000000;
-		text-shadow: 0 2px 8px #db9027;
+		color: white;
 		font-weight: 700;
+		border-radius: 8px;
+		background-color: black;
+		display: inline-block;
+		padding: 0.25em;
+		min-width: 50px;
 	}
 	.nav_menu ul {
 		width: 100%;
@@ -483,8 +495,13 @@ img.app-store-badge {
 	}
 
 	.nav_menu #joe {
-		color: #db9027;
-		text-shadow: 0 0 25px #db9027;
+		color: black;
+		font-weight: 700;
+		border-radius: 8px;
+		background-color: white;
+		display: inline-block;
+		padding: 0.25em;
+		min-width: 50px;
 	}
 	.nav_menu ul {
 		width: 100%;
