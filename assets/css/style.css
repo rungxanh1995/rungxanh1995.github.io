@@ -46,18 +46,17 @@ h4 {
 }
 
 h1 {
-	font-size: 4em;
+	font-size: 3em;
 	font-family: "Mulish", sans-serif;
 	font-weight: 700;
-	color: #db9027;
+	color: rgb(207, 75, 86);
 	line-height: 1.5;
 }
 
 h2 {
-	font-size: 2.5em;
+	font-size: 2em;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
-	line-height: 1.5;
 	padding-top: 100px;
 	padding-bottom: 50px;
 }
@@ -67,17 +66,6 @@ h3 {
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	line-height: 1.5;
-}
-
-hr {
-	/* invisible */
-	margin: 1em auto 1em auto;
-	width: 0;
-	height: 0;
-	background: none;
-	border: none;
-	-webkit-box-shadow: none;
-	box-shadow: none;
 }
 
 p {
@@ -120,25 +108,21 @@ a {
 	margin: 1em;
 	padding: -0.5em;
 	min-width: 160px;
-	font-size: 95%;
-	font-weight: 700;
+	font-size: 85%;
+	font-weight: 400;
 }
 
 img.img-screenshot {
-	border-radius: 6px;
+	border-radius: 8px;
 	margin-top: 3em;
 	margin-bottom: 1.5em;
 	border: 1px solid rgb(166, 166, 166);
-	-webkit-box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px,
-		rgba(0, 0, 0, 0.23) 0 10px 15px;
-	box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 10px 15px;
 }
 
 img.icon {
-	border-radius: 25%;
+	border-radius: 50%;
 	margin: 1.5em;
-	background-color: white;
-	border: 1px solid rgb(166, 166, 166);
+	background-color: #fff;
 }
 
 img.app-store-badge {
@@ -210,6 +194,13 @@ img.app-store-badge {
 		color: #db9027;
 	}
 
+	#about,
+	#projects,
+	#contributions {
+		background: #fff;
+		color: #111;
+	}
+
 	#skills .skill-stack {
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -239,6 +230,7 @@ img.app-store-badge {
 
 	img#hero-image {
 		width: 20%;
+		max-width: 150px;
 		height: auto;
 		margin-top: 100px;
 		border-radius: 50%;
@@ -324,6 +316,13 @@ img.app-store-badge {
 		color: #db9027;
 	}
 
+	#about,
+	#projects,
+	#contributions {
+		background: #111;
+		color: #fff;
+	}
+
 	#skills .skill-stack {
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -353,6 +352,7 @@ img.app-store-badge {
 
 	img#hero-image {
 		width: 20%;
+		max-width: 150px;
 		height: auto;
 		margin-top: 100px;
 		border-radius: 50%;
@@ -447,6 +447,13 @@ img.app-store-badge {
 		color: inherit;
 	}
 
+	#about,
+	#projects,
+	#contributions {
+		background: #fff;
+		color: #111;
+	}
+
 	#skills .skill-stack {
 		display: -ms-grid;
 		display: grid;
@@ -468,9 +475,9 @@ img.app-store-badge {
 	}
 
 	img#hero-image {
-		width: 200px;
+		width: 120px;
 		height: auto;
-		margin-top: 125px;
+		margin-top: 100px;
 		border-radius: 50%;
 	}
 
@@ -562,6 +569,13 @@ img.app-store-badge {
 		color: inherit;
 	}
 
+	#about,
+	#projects,
+	#contributions {
+		background: #111;
+		color: #fff;
+	}
+
 	#skills .skill-stack {
 		display: -ms-grid;
 		display: grid;
@@ -583,9 +597,9 @@ img.app-store-badge {
 	}
 
 	img#hero-image {
-		width: 200px;
+		width: 120px;
 		height: auto;
-		margin-top: 125px;
+		margin-top: 100px;
 		border-radius: 50%;
 	}
 
@@ -602,10 +616,6 @@ img.app-store-badge {
 }
 
 /* Each section styling */
-#about {
-	background: #111;
-	color: #ccc;
-}
 
 #about h2 {
 	padding-top: 0;
@@ -621,11 +631,6 @@ img.app-store-badge {
 	margin: 0.5em 0;
 }
 
-#projects {
-	background: #fff;
-	color: #101010;
-}
-
 #skills {
 	background: #111;
 	color: #ccc;
@@ -635,11 +640,6 @@ img.app-store-badge {
 	text-align: center;
 	padding-top: 0.5em;
 	padding-bottom: 0;
-}
-
-#contributions {
-	background: #fff;
-	color: #101010;
 }
 
 footer {
