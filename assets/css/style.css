@@ -10,6 +10,7 @@
 
 html {
 	font-family: "Mulish", "Helvetica Neue", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
 	/* scroll-behavior: smooth; */
 	/* ^ don't uncomment this as it bugs on Chrome */
 }
