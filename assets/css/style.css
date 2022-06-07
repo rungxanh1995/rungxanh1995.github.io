@@ -375,7 +375,7 @@ img.app-store-badge {
 /* SMALL SCREEN IN LIGHT MODE */
 @media screen and (max-width: 549px) and (prefers-color-scheme: light) {
 	.nav_menu {
-		font-family: "Mulish";
+		font-family: "Roboto Flex";
 		font-weight: 500;
 		font-size: 90%;
 	}
@@ -497,7 +497,7 @@ img.app-store-badge {
 /* SMALL SCREEN IN DARK MODE */
 @media screen and (max-width: 549px) and (prefers-color-scheme: dark) {
 	.nav_menu {
-		font-family: "Mulish";
+		font-family: "Roboto Flex";
 		font-weight: 500;
 		font-size: 90%;
 	}
