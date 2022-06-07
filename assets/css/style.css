@@ -192,7 +192,7 @@ img.app-store-badge {
 
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
-		color: #db9027;
+		color: rgb(207, 75, 86);
 	}
 
 	#about,
@@ -200,33 +200,6 @@ img.app-store-badge {
 	#contributions {
 		background: #fff;
 		color: #111;
-	}
-
-	#skills .skill-stack {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-		-webkit-box-pack: center;
-		-ms-flex-pack: center;
-		justify-content: center;
-	}
-
-	#skills .skill-item {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
-		align-items: center;
-		margin: 10px;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
 	}
 
 	img#hero-image {
@@ -314,7 +287,7 @@ img.app-store-badge {
 
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
-		color: #db9027;
+		color: rgb(207, 75, 86);
 	}
 
 	#about,
@@ -322,33 +295,6 @@ img.app-store-badge {
 	#contributions {
 		background: #111;
 		color: #fff;
-	}
-
-	#skills .skill-stack {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-		-webkit-box-pack: center;
-		-ms-flex-pack: center;
-		justify-content: center;
-	}
-
-	#skills .skill-item {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
-		align-items: center;
-		margin: 10px;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
 	}
 
 	img#hero-image {
@@ -421,7 +367,7 @@ img.app-store-badge {
 	}
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
-		color: #db9027;
+		color: rgb(207, 75, 86);
 	}
 
 	h1 {
@@ -453,22 +399,6 @@ img.app-store-badge {
 	#contributions {
 		background: #fff;
 		color: #111;
-	}
-
-	#skills .skill-stack {
-		display: -ms-grid;
-		display: grid;
-		-ms-grid-columns: 1fr 1fr 1fr;
-		grid-template-columns: 1fr 1fr 1fr;
-		text-align: center;
-	}
-
-	#skills .icon {
-		margin-bottom: 0;
-	}
-
-	#skills .skill-label {
-		margin-bottom: 1em;
 	}
 
 	.button {
@@ -543,7 +473,7 @@ img.app-store-badge {
 	}
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
-		color: #db9027;
+		color: rgb(207, 75, 86);
 	}
 
 	h1 {
@@ -575,22 +505,6 @@ img.app-store-badge {
 	#contributions {
 		background: #111;
 		color: #fff;
-	}
-
-	#skills .skill-stack {
-		display: -ms-grid;
-		display: grid;
-		-ms-grid-columns: 1fr 1fr 1fr;
-		grid-template-columns: 1fr 1fr 1fr;
-		text-align: center;
-	}
-
-	#skills .icon {
-		margin-bottom: 0;
-	}
-
-	#skills .skill-label {
-		margin-bottom: 1em;
 	}
 
 	.button {
@@ -632,15 +546,27 @@ img.app-store-badge {
 	margin: 0.5em 0;
 }
 
-#skills {
-	background: #111;
-	color: #ccc;
+#contributions > ul > li {
+	margin: auto; /* align center of screen */
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	max-width: 800px;
 }
 
-#skills .skill-label {
-	text-align: center;
-	padding-top: 0.5em;
-	padding-bottom: 0;
+#contributions > ul > li > a {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: rgb(207, 75, 86);
+}
+
+#contributions > ul > li > a > img.inline-app-icon {
+	display: inline;
+	height: 3em;
+	perspective: 1px;
+	border-radius: 6px;
+	margin-right: 0.5em;
+	vertical-align:middle;
 }
 
 footer {
