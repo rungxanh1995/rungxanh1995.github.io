@@ -555,6 +555,7 @@ img.app-store-badge {
 	padding-bottom: 0.5em;
 	padding-left: 1em;
 	max-width: 800px;
+	list-style-position: inside;
 }
 
 #contributions > ul > li > a {
