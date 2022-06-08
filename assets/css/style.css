@@ -7,9 +7,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 html {
-	font-family: "Roboto Flex", "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Poppins", "Helvetica Neue", Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	/* scroll-behavior: smooth; */
@@ -115,8 +116,7 @@ a {
 	margin: 1em;
 	padding: -0.5em;
 	min-width: 160px;
-	font-size: 85%;
-	font-weight: 400;
+	font-size: 95%;
 }
 
 img.img-screenshot {
@@ -268,7 +268,7 @@ img.app-store-badge {
 		-webkit-box-align: center;
 		-ms-flex-align: center;
 		align-items: center;
-		font-family: "Mulish", sans-serif;
+		font-family: "Poppins", sans-serif;
 	}
 	.nav_menu ul li a {
 		text-decoration: none;
@@ -324,7 +324,7 @@ img.app-store-badge {
 /* SMALL SCREEN IN LIGHT MODE */
 @media screen and (max-width: 549px) and (prefers-color-scheme: light) {
 	.nav_menu {
-		font-family: "Roboto Flex", sans-serif;
+		font-family: "Poppins", sans-serif;
 		font-weight: 500;
 		font-size: 90%;
 	}
@@ -430,7 +430,7 @@ img.app-store-badge {
 /* SMALL SCREEN IN DARK MODE */
 @media screen and (max-width: 549px) and (prefers-color-scheme: dark) {
 	.nav_menu {
-		font-family: "Roboto Flex", sans-serif;
+		font-family: "Poppins", sans-serif;
 		font-weight: 500;
 		font-size: 90%;
 	}
@@ -570,6 +570,7 @@ img.app-store-badge {
 	perspective: 1px;
 	border-radius: 5px;
 	margin-right: 0.5em;
+	margin-bottom: 0.5em;
 	vertical-align:middle;
 }
 
