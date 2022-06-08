@@ -566,9 +566,9 @@ img.app-store-badge {
 
 #contributions > ul > li > a > img.inline-app-icon {
 	display: inline;
-	height: 3em;
+	height: 29px;
 	perspective: 1px;
-	border-radius: 6px;
+	border-radius: 5px;
 	margin-right: 0.5em;
 	vertical-align:middle;
 }
