@@ -5,12 +5,10 @@
 * Browsers: last 4 version
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Serif:wght@400;600&display=swap');
 
 html {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto Flex", "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Roboto Flex", "Helvetica Neue", Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	/* scroll-behavior: smooth; */
@@ -41,7 +39,7 @@ h1,
 h2,
 h3,
 h4 {
-	font-family: "Roboto Serif", Times, serif;
+	font-family: "IBM Plex Serif", Times, serif;
 	margin-left: auto; /* align center of screen */
 	margin-right: auto; /* align center of screen */
 	padding: 0.5em 0;
@@ -58,7 +56,7 @@ h1 {
 
 h2 {
 	font-size: 1.75em;
-	letter-spacing: 0.15em;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	padding-top: 100px;
 	padding-bottom: 50px;
@@ -66,7 +64,7 @@ h2 {
 
 h3 {
 	font-size: 1.75em;
-	letter-spacing: 0.15em;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	line-height: 1.5;
 }
@@ -109,7 +107,7 @@ a {
 	background-color: #000;
 	border: 1px solid rgb(166, 166, 166);
 	color: white;
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'IBM Plex Mono', monospace;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -268,7 +266,7 @@ img.app-store-badge {
 		-webkit-box-align: center;
 		-ms-flex-align: center;
 		align-items: center;
-		font-family: "Poppins", sans-serif;
+		font-family: "IBM Plex Sans", sans-serif;
 	}
 	.nav_menu ul li a {
 		text-decoration: none;
@@ -324,7 +322,7 @@ img.app-store-badge {
 /* SMALL SCREEN IN LIGHT MODE */
 @media screen and (max-width: 549px) and (prefers-color-scheme: light) {
 	.nav_menu {
-		font-family: "Poppins", sans-serif;
+		font-family: "IBM Plex Sans", sans-serif;
 		font-weight: 500;
 		font-size: 90%;
 	}
@@ -430,7 +428,7 @@ img.app-store-badge {
 /* SMALL SCREEN IN DARK MODE */
 @media screen and (max-width: 549px) and (prefers-color-scheme: dark) {
 	.nav_menu {
-		font-family: "Poppins", sans-serif;
+		font-family: "IBM Plex Sans", sans-serif;
 		font-weight: 500;
 		font-size: 90%;
 	}
