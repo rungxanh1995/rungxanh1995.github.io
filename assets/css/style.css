@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&display=swap');
 
 html {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto Flex", "Helvetica Neue", Helvetica, sans-serif;
+	font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, "andale mono", monospace;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	/* scroll-behavior: smooth; */
@@ -71,11 +71,11 @@ h3 {
 }
 
 p {
-	font-size: 1.05em;
+	font-size: 0.9em;
 	text-align: left;
 	margin: auto; /* align center of screen */
 	padding: 1em 1em;
-	max-width: 800px;
+	max-width: 1000px;
 }
 
 a {
@@ -108,7 +108,6 @@ a {
 	background-color: #222;
 	border: 1px solid #57BD9F;
 	color: #57BD9F;
-	font-family: 'SF Mono', monospace;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -331,7 +330,6 @@ img.app-store-badge {
 /* SMALL SCREEN IN LIGHT MODE */
 @media screen and (max-width: 549px) and (prefers-color-scheme: light) {
 	.nav_menu {
-		font-family: "IBM Plex Sans", sans-serif;
 		font-weight: 500;
 		font-size: 90%;
 	}
@@ -396,7 +394,7 @@ img.app-store-badge {
 		width: 90%;
 		margin: auto; /* align center of screen */
 		padding: 1em 0;
-		font-size: 1.125em;
+		font-size: 1em;
 	}
 
 	a {
@@ -501,7 +499,7 @@ img.app-store-badge {
 		width: 90%;
 		margin: auto; /* align center of screen */
 		padding: 1em 0;
-		font-size: 1.125em;
+		font-size: 1em;
 	}
 
 	a {
