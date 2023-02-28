@@ -49,7 +49,7 @@ h4 {
 h1 {
 	font-size: 2.5em;
 	font-weight: 700;
-	color: rgb(207, 75, 86);
+	color: #57BD9F;
 	line-height: 1.5;
 	padding-top: 100px;
 }
@@ -60,6 +60,7 @@ h2 {
 	text-transform: uppercase;
 	padding-top: 100px;
 	padding-bottom: 50px;
+	color: #57BD9F;
 }
 
 h3 {
@@ -103,19 +104,24 @@ a {
 }
 
 .button {
-	border-radius: 8px;
-	background-color: #000;
-	border: 1px solid rgb(166, 166, 166);
-	color: white;
-	font-family: 'IBM Plex Mono', monospace;
+	border-radius: 12px;
+	background-color: #222;
+	border: 1px solid #57BD9F;
+	color: #57BD9F;
+	font-family: 'SF Mono', monospace;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	margin: 1em;
+	margin: 0.5em;
 	padding: -0.5em;
 	min-width: 160px;
 	font-size: 95%;
 }
+
+.button:hover {
+	box-shadow: 0 4px 0 #57BD9F;
+}
+
 
 img.img-screenshot {
 	border-radius: 8px;
@@ -125,6 +131,10 @@ img.img-screenshot {
 
 img.icon {
 	margin: 1.5em;
+}
+
+img.icon:hover {
+	box-shadow: 0 4px 0 #57BD9F;
 }
 
 img.app-store-badge {
@@ -185,7 +195,7 @@ img.app-store-badge {
 		color: white;
 		font-weight: 700;
 		border-radius: 8px;
-		background-color: #000;
+		background-color: #57BD9F;
 		display: inline-block;
 		padding: 0.25em;
 		min-width: 80px;
@@ -193,7 +203,7 @@ img.app-store-badge {
 
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
-		color: rgb(207, 75, 86);
+		color: #57BD9F;
 	}
 
 	#about,
@@ -266,7 +276,6 @@ img.app-store-badge {
 		-webkit-box-align: center;
 		-ms-flex-align: center;
 		align-items: center;
-		font-family: "IBM Plex Sans", sans-serif;
 	}
 	.nav_menu ul li a {
 		text-decoration: none;
@@ -277,10 +286,10 @@ img.app-store-badge {
 	}
 
 	.nav_menu ul li a#joe {
-		color: black;
+		color: white;
 		font-weight: 700;
 		border-radius: 8px;
-		background-color: #fff;
+		background-color: #57BD9F;
 		display: inline-block;
 		padding: 0.25em;
 		min-width: 80px;
@@ -288,7 +297,7 @@ img.app-store-badge {
 
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
-		color: rgb(207, 75, 86);
+		color: #57BD9F;
 	}
 
 	#about,
@@ -331,7 +340,7 @@ img.app-store-badge {
 		color: white;
 		font-weight: 700;
 		border-radius: 8px;
-		background-color: black;
+		background-color: #57BD9F;
 		display: inline-block;
 		padding: 0.25em;
 		min-width: 50px;
@@ -368,7 +377,7 @@ img.app-store-badge {
 	}
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
-		color: rgb(207, 75, 86);
+		color: #57BD9F;
 	}
 
 	h1 {
@@ -428,7 +437,6 @@ img.app-store-badge {
 /* SMALL SCREEN IN DARK MODE */
 @media screen and (max-width: 549px) and (prefers-color-scheme: dark) {
 	.nav_menu {
-		font-family: "IBM Plex Sans", sans-serif;
 		font-weight: 500;
 		font-size: 90%;
 	}
@@ -437,7 +445,7 @@ img.app-store-badge {
 		color: black;
 		font-weight: 700;
 		border-radius: 8px;
-		background-color: white;
+		background-color: #57BD9F;
 		display: inline-block;
 		padding: 0.25em;
 		min-width: 50px;
@@ -474,7 +482,7 @@ img.app-store-badge {
 	}
 	.nav_menu ul li a:hover,
 	.nav_menu ul li a:focus {
-		color: rgb(207, 75, 86);
+		color: #57BD9F;
 	}
 
 	h1 {
@@ -559,7 +567,7 @@ img.app-store-badge {
 #contributions > ul > li > a {
 	text-transform: uppercase;
 	font-weight: 700;
-	color: rgb(207, 75, 86);
+	color: #57BD9F;
 }
 
 #contributions > ul > li > a > img.inline-app-icon {
