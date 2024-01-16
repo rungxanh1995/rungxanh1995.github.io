@@ -224,10 +224,15 @@
 	</main>
 
 	<footer>
-		<div class="container">
-			<h4>&copy; Joe Pham - 2023</h4>
-		</div>
-	</footer>
+        <div class="container">
+            <h4>&copy; Joe Pham - <span id="currentYear"></span></h4>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript code to dynamically update the year
+        document.getElementById('currentYear').innerText = new Date().getFullYear();
+    </script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="/assets/js/script.js"></script>
